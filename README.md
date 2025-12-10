@@ -14,6 +14,7 @@ Skuld is designed to be **human readable**, **unambiguous**, and **machine-parsa
 
 The name “Skuld” is taken from Norse mythology, where Skuld is one of the three Norns, the weavers of fate, and represents the future—what is yet to come.
 
+Skuld is designed to be a more readable and flexible alternative to traditional scheduling formats. Unlike cron, which is limited to fixed points in time and lacks natural support for bounded time windows, Skuld allows you to define explicit start and end times, per-day intervals, and multiple windows per day. Skuld also allows an unlimited number of expressions, making it easy to define complex yet precise schedules.
 ---
 
 # 1. Basic Structure
@@ -24,7 +25,7 @@ A Skuld schedule consists of one or more **schedule expressions** separated by s
 expression;expression;expression
 ```
 
-Each rule defines **when** something can run and **how often** it runs.
+Each expression defines **when** something can run and **how often** it runs.
 
 General form:
 
