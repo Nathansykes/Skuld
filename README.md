@@ -12,6 +12,8 @@ This document defines the **Skuld** domain-specific language (DSL) for expressin
 
 Skuld is designed to be **human readable**, **unambiguous**, and **machine-parsable** using a formal grammar.
 
+The name “Skuld” is taken from Norse mythology, where Skuld is one of the three Norns, the weavers of fate, and represents the future—what is yet to come.
+
 ---
 
 # 1. Basic Structure
